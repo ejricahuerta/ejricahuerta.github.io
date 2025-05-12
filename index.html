@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-gray-50 dark:bg-gray-900">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Edmel Ricahuerta | Portfolio</title>
+    <meta name="description" content=".NET Enthusiast who also makes good coffee. Portfolio of Edmel Ricahuerta.">
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/ejricahuerta?s=64" />
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Dark mode support -->
+    <script>
+      if (
+        localStorage.theme === 'dark' ||
+        (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
+      ) {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+    </script>
+  </head>
+  <body class="text-gray-900 dark:text-gray-100 min-h-screen flex flex-col">
+    <!-- Hero Section -->
+    <main class="flex-1 flex flex-col items-center justify-center px-4">
+      <div class="max-w-2xl w-full mx-auto text-center py-16">
+        <img src="./avatar.jpg" alt="Edmel Ricahuerta" class="w-28 h-28 rounded-full mx-auto shadow-lg border-4 border-white dark:border-gray-800 mb-6" />
+        <h1 class="text-4xl font-extrabold tracking-tight mb-2">Edmel Ricahuerta</h1>
+        <p class="text-lg text-gray-600 dark:text-gray-300 mb-6">.NET Enthusiast who also makes good coffee</p>
+        <div class="flex flex-col gap-4 max-w-xs mx-auto mb-8">
+          <a href="https://github.com/ejricahuerta" target="_blank" class="w-full flex items-center gap-3 justify-center py-3 px-6 rounded-xl bg-gray-900 text-white font-semibold text-lg shadow hover:bg-gray-700 dark:bg-gray-100 dark:text-gray-900 dark:hover:bg-gray-300 transition">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.73 1.27 3.4.97.11-.75.41-1.27.74-1.56-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .98-.31 3.2 1.18a11.1 11.1 0 0 1 2.92-.39c.99 0 1.99.13 2.92.39 2.22-1.49 3.2-1.18 3.2-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.41-5.27 5.7.42.36.79 1.08.79 2.18 0 1.57-.01 2.84-.01 3.23 0 .31.21.68.8.56C20.71 21.39 24 17.08 24 12c0-6.27-5.23-11.5-12-11.5z"/></svg>
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/exricahuerta/" target="_blank" class="w-full flex items-center gap-3 justify-center py-3 px-6 rounded-xl bg-blue-600 text-white font-semibold text-lg shadow hover:bg-blue-700 transition">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.28c-.97 0-1.75-.79-1.75-1.75s.78-1.75 1.75-1.75 1.75.79 1.75 1.75-.78 1.75-1.75 1.75zm13.5 11.28h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3v-10h2.89v1.36h.04c.4-.75 1.37-1.54 2.82-1.54 3.01 0 3.57 1.98 3.57 4.56v5.62z"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://solanalytica.com" target="_blank" class="w-full flex items-center gap-3 justify-center py-3 px-6 rounded-xl bg-[#FFD600] text-black font-semibold text-lg shadow hover:bg-yellow-400 transition">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6zm2 1v10h14V7H5zm2 2h2v2H7V9zm0 4h2v2H7v-2zm4-4h2v2h-2V9zm0 4h2v2h-2v-2zm4-4h2v2h-2V9zm0 4h2v2h-2v-2z"/></svg>
+            Solanalytica
+          </a>
+          <a href="https://tucked.app" target="_blank" class="w-full flex items-center gap-3 justify-center py-3 px-6 rounded-xl bg-[#1A2233] text-white font-semibold text-lg shadow hover:bg-[#232c43] transition">
+            <img src="https://tucked.app/images/logo.svg" alt="Tucked.app Logo" class="w-6 h-6 bg-white rounded" />
+            Tucked.app
+          </a>
+          <a href="https://www.notion.so/Edmel-Ricahuerta-1f16ac49c3c8802a8e0ef53d9758d17b?pvs=4" target="_blank" class="w-full flex items-center gap-3 justify-center py-3 px-6 rounded-xl bg-black text-white font-semibold text-lg shadow hover:bg-gray-800 transition">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 8h8M8 12h8M8 16h4"/></svg>
+            Notion Resume
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <!-- About -->
+    <section class="max-w-2xl mx-auto px-4 mb-12">
+      <h2 class="text-xl font-semibold mb-2">About</h2>
+      <p class="text-gray-700 dark:text-gray-300">
+        Hi! I'm Edmel Ricahuerta, a .NET enthusiast based in Toronto. I love building impactful software and making good coffee. Check out my <a href="https://www.notion.so/Edmel-Ricahuerta-1f16ac49c3c8802a8e0ef53d9758d17b?pvs=4" class="text-blue-600 dark:text-blue-400 underline" target="_blank">Notion resume</a> for more details.
+      </p>
+    </section>
+    <!-- Projects Section -->
+    <section class="max-w-4xl mx-auto px-4 py-12">
+      <h2 class="text-2xl font-bold mb-8 text-center">Work and Projects</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-[#FFD600] rounded-2xl shadow-lg p-6 flex flex-col text-black">
+          <h3 class="text-lg font-semibold mb-2">SolVista</h3>
+          <p class="flex-1">SolVista is a cloud-native, white-labeled portal that lets you organize, simplify, and share Tableau dashboards in your brand's style. Empower your team and clients with secure, easy access to actionable analytics.</p>
+          <div class="flex items-center mt-4">
+            <span class="inline-block text-xs bg-black bg-opacity-10 rounded px-2 py-1 mr-2">Solanalytica</span>
+            <a href="https://solvista.solanalytica.com" target="_blank" class="ml-auto underline hover:text-gray-700">Visit SolVista</a>
+          </div>
+        </div>
+        <div class="bg-[#FFD600] rounded-2xl shadow-lg p-6 flex flex-col text-black">
+          <h3 class="text-lg font-semibold mb-2">SolaBurst</h3>
+          <p class="flex-1">Real-time blockchain data burst and visualization tool.</p>
+          <div class="flex items-center mt-4">
+            <span class="inline-block text-xs bg-black bg-opacity-10 rounded px-2 py-1 mr-2">Solanalytica</span>
+            <a href="https://solaburst.com" target="_blank" class="ml-auto underline hover:text-gray-700">Visit SolaBurst</a>
+          </div>
+        </div>
+        <div class="bg-[#1A2233] rounded-2xl shadow-lg p-6 flex flex-col text-white">
+          <div class="flex items-center mb-2">
+            <img src="https://tucked.app/images/logo.svg" alt="Tucked.app Logo" class="w-7 h-7 bg-white rounded mr-2" />
+            <h3 class="text-lg font-semibold">Tucked.app</h3>
+          </div>
+          <p class="flex-1">Tucked captures errors and conversations, automatically creating and assigning tickets with instant alerts. Streamline your issue resolution process and minimize downtime.</p>
+          <div class="flex items-center mt-4">
+            <span class="inline-block text-xs bg-white bg-opacity-20 rounded px-2 py-1 mr-2">Micro Startup</span>
+            <a href="https://tucked.app" target="_blank" class="ml-auto underline hover:text-gray-200">Visit Tucked.app</a>
+          </div>
+        </div>
+        <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 flex flex-col">
+          <h3 class="text-lg font-semibold mb-2">More Projects on GitHub</h3>
+          <p class="text-gray-700 dark:text-gray-300 flex-1">Explore additional open-source projects and code samples.</p>
+          <div class="flex items-center mt-4">
+            <span class="inline-block text-xs bg-gray-200 dark:bg-gray-700 rounded px-2 py-1 mr-2">GitHub</span>
+            <a href="https://github.com/ejricahuerta" target="_blank" class="ml-auto text-blue-600 dark:text-blue-400 hover:underline">View GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="py-8 text-center text-gray-500 dark:text-gray-400 text-sm">
+      &copy; 2024 Edmel Ricahuerta &middot; Inspired by <a href="https://tailwindcss.com/plus/templates/spotlight/preview" class="underline hover:text-blue-600 dark:hover:text-blue-400" target="_blank">Spotlight Template</a>
+    </footer>
+  </body>
+</html> 
